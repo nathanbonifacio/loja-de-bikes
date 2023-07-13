@@ -1,0 +1,29 @@
+nav li{
+    display: inline-block;
+    margin: 8px;
+    padding: 0 15px;
+}
+nav a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: rgb(72, 72, 182);
+}
+nav a:hover {
+text-shadow: 1px 1px 3px rgb(180, 155, 155);
+color: rgb(72, 72, 182);
+}
+.border-right{
+    border-right: 1px solid black;
+}
+.bg-blue{
+    background-color: rgb(30, 148, 89);
+    color: #fff;
+}
+
+.bg-lightblue{
+    background-color: rgb(10, 160, 230);
+}
+
+figcaption{
+   text-align: center;
+}
