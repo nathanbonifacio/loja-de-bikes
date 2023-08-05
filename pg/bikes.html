@@ -9,115 +9,65 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-<!-- inicio do menu de navegação -->
-<nav id="menu">
-    <ul class="bg-blue p-3">
-        <li class="border-right"><a href="../index.html">Home</a></li>
-        <li class="border-right"><a href="#">Bikes</a></li>
-        <li class="border-right"><a href="../index.html">Artigos</a></li>
-        <li><a href="../index.html">Férias</a></li>
-    </ul>
-</nav>
-<!-- final do menu de navegação -->
+    <!-- INICIO DO MENU DE NAVEGAÇÃO -->
+        <nav class="menu" id="menu">
+            <ul class="menu-opcoes">
+                <a class="menu-opcoes-link" href="../index.html">Home</a>
+                <a class="menu-opcoes-link" href="#">Bikes</a>
+                <a class="menu-opcoes-link" href="../index.html">Artigos</a>
+                <a class="menu-opcoes-link" href="../index.html">Férias</a>
+            </ul>
+        </nav>
+    <!-- FIM DO MENU DE NAVEGAÇÃO -->
 
-<!-- inicio cabeçlho -->
-<header class="bg-warning">
-    <div class="container py-5">
-        <h1 class="display-3">Fatec</h1>
-        <h2 class="h4">Trabalhando com links</h2>
+    <main class="conteudo">
+        <div class="grupo-imagem-bike">
+            <figure>
+                <img class="imagem-bike" src="../img/bike1.jpg" alt="img bike 1">
+                <figcaption class="legenda">R$1000,00</figcaption>
+                <button class="botao-bike">Comprar</button>
+            </figure>
+            <figure>
+                <img class="imagem-bike" src="../img/bike2.jpg" alt="img bike 2">
+                <figcaption class="legenda">R$1100,00</figcaption>
+                <button class="botao-bike">Comprar</button>
+            </figure>
+            <figure>
+                <img class="imagem-bike" src="../img/bike3.jpg" alt="img bike 3">
+                <figcaption class="legenda">R$1200,00</figcaption>
+                <button class="botao-bike">Comprar</button>
+            </figure>
+        </div>
+
+        <div class="grupo-imagem-bike">
+            <figure>
+                <img class="imagem-bike" src="../img/bike4.jpg" alt="img bike 4">
+                <figcaption class="legenda">R$1300,00</figcaption>
+                <button class="botao-bike">Comprar</button>
+            </figure>
+            <figure>
+                <img class="imagem-bike" src="../img/bike5.jpg" alt="img bike 5">
+                <figcaption class="legenda">R$1400,00</figcaption>
+                <button class="botao-bike">Comprar</button>
+            </figure>
+            <figure>
+                <img class="imagem-bike" src="../img/bike6.jpg" alt="img bike 6">
+                <figcaption class="legenda">R$1500,00</figcaption>
+                <button class="botao-bike">Comprar</button>
+            </figure>
+        </div>
+    </main>    
+
+    <footer class="rodape-bike">
+        <div class="rodape-agrupado">
+            <p class="rodape-escrito">Voltar ao Topo</p>
+            <a href="#menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-bar-up" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5zm-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </a>
     </div>
-</header>
-<!-- fim cabeçalho -->
-
-
-<main class="container">
-<div class="row">
-
-  <div class="col-12">
-      <h3 class="h1 mt-5 p-2"> Bikes/Férias</h3>
-  </div>
-   
- <div class="col-md-4 mt-4">
-     <figure>
-         <img src="https://picsum.photos/id/1/320/250" alt="img">
-         <figcaption class="h5">Bikes</figcaption>
-     </figure>
-     
- </div>
- <div class="col-md-4 mt-4">
-    <figure>
-        <img src="https://picsum.photos/id/1/320/250" alt="img">
-        <figcaption class="h5">Bikes</figcaption>
-    </figure>
-
-</div>
-<div class="col-md-4 mt-4">
-    <figure>
-        <img src="https://picsum.photos/id/1/320/250" alt="img">
-        <figcaption class="h5">Bikes</figcaption>
-    </figure>
-</div>
-
-<!-- bloco2 -->
-<div class="col-md-4 mt-4">
-    <figure>
-        <img src="https://picsum.photos/id/1010/320/250" alt="img">
-        <figcaption class="h5">Bikes</figcaption>
-    </figure>
-    
-</div>
-<div class="col-md-4 mt-4">
-   <figure>
-       <img src="https://picsum.photos/id/1010/320/250" alt="img">
-       <figcaption class="h5">Bikes</figcaption>
-   </figure>
-
-</div>
-<div class="col-md-4 mt-4">
-   <figure>
-       <img src="https://picsum.photos/id/1010/320/250" alt="img">
-       <figcaption class="h5">Bikes</figcaption>
-   </figure>
-</div>
-<!-- fim do bloco2 -->
-
-<!-- bloco3 -->
-<div class="col-md-4 mt-4">
-    <figure>
-        <img src="https://picsum.photos/id/1018/320/250" alt="img">
-        <figcaption class="h5">Bikes</figcaption>
-    </figure>
-    
-</div>
-<div class="col-md-4 mt-4">
-   <figure>
-       <img src="https://picsum.photos/id/1018/320/250" alt="img">
-       <figcaption class="h5">Bikes</figcaption>
-   </figure>
-
-</div>
-<div class="col-md-4 mt-4">
-   <figure>
-       <img src="https://picsum.photos/id/1018/320/250" alt="img">
-       <figcaption class="h5">Bikes</figcaption>
-   </figure>
-</div>
-<!-- fim do bloco3 -->
-
-</div>
-</main>
-<footer class=" text-end pt-4 bg-secondary">
-    <p>
-         Voltar ao topo
-        <a href="#menu">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-bar-up" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5zm-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5z"/>
-              </svg>
-        </a>
-    </p>
-</footer>
-
-
+    </footer>
 
 <script src="../js/bootstrap.bundle.js"></script>
 </body>
